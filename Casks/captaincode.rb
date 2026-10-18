@@ -5,26 +5,25 @@ cask "captaincode" do
                   must_succeed: false
   end
 
-  version "0.3.1"
-
+  version "0.3.2"
   on_macos do
     on_arm do
-      sha256 "468e71763c2b919d7399833b7a8788f27c7d78f8177bc8ec9f45a15e5939ba70"
-      url "https://github.com/john-nash-rs/captaincode/releases/download/v0.3.1/captaincode_0.3.1_darwin_arm64.tar.gz"
+      sha256 "beb45051f62c7ef7701e5354c481b45f692b3d856b47105eec1edf762cbc74ce"
+      url "https://github.com/john-nash-rs/captaincode/releases/download/v0.3.2/captaincode_0.3.2_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "f61fed58ea18b9bda75af96135e83ca7208656a1ef139ab900d92dee80b3759d"
-      url "https://github.com/john-nash-rs/captaincode/releases/download/v0.3.1/captaincode_0.3.1_darwin_amd64.tar.gz"
+      sha256 "b408ee896a70d7fc8f9bc28092db93e96bad50fe002489d428107fd99a4694e3"
+      url "https://github.com/john-nash-rs/captaincode/releases/download/v0.3.2/captaincode_0.3.2_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "70d9e15b54d7f1737a444872a2822b177bb3380cd393139e078c380aad671290"
-      url "https://github.com/john-nash-rs/captaincode/releases/download/v0.3.1/captaincode_0.3.1_linux_arm64.tar.gz"
+      sha256 "e59c759bc17dda098b18933e1616ae528d90d827fb37f6020953b1c0f89f2e55"
+      url "https://github.com/john-nash-rs/captaincode/releases/download/v0.3.2/captaincode_0.3.2_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "f23e4c65dad98db755c9e3446137912f3635139bf4bda4b41f2188dfb18ba149"
-      url "https://github.com/john-nash-rs/captaincode/releases/download/v0.3.1/captaincode_0.3.1_linux_amd64.tar.gz"
+      sha256 "ed23c1a0dfcbd5e0b37fcf8261d108957bdb67f672e0eadef54436fafabec0ff"
+      url "https://github.com/john-nash-rs/captaincode/releases/download/v0.3.2/captaincode_0.3.2_linux_amd64.tar.gz"
     end
   end
 
