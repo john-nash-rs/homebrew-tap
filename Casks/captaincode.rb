@@ -1,4 +1,10 @@
 cask "captaincode" do
+  postflight do
+    system_command "/usr/bin/xattr",
+                  args: ["-dr", "com.apple.quarantine", "#{staged_path}/captaincode"],
+                  must_succeed: false
+  end
+
   version "0.3.1"
 
   on_macos do
